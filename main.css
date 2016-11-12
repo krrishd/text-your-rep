@@ -1,0 +1,78 @@
+@import "//fonts.googleapis.com/css?family=Rubik:300";
+@import "//fonts.googleapis.com/css?family=Shrikhand";
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: Rubik, sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+  color: #fff;
+  background: url('img/bg.png');
+  background-size:cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Shrikhand, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.hero {
+  margin: 10px auto;
+  text-align: left;
+}
+
+.hero p {
+  font-size: 1.7em;
+  width: 600px;
+  line-height: 40px;
+  margin-left: auto;
+}
+
+.hero p .number {
+  font-family: monospace;
+  padding: 0px 20px;
+  background: #fff;
+  text-shadow: none;
+  color: rgba(0,0,0,.8);
+  border-radius: 3px;
+  margin: 5px;
+  margin-left: 0;
+  display: inline-block;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,.2);
+}
+
+.format {
+  width: 250px;
+}
+
+.hero .text {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin: 30px 50px;
+  margin-right: 25px;
+  text-align: right;
+}
+
+.hero .screenshot {
+  display: inline-block;
+  width: 30%;
+  margin: 30px;
+  margin-left:0;
+}
+
+.hero .screenshot img {
+  max-width: 320px;
+}
+
+img.fax {
+  margin-top: 50px;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,.6);
+  margin-bottom: -200px;
+}

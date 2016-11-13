@@ -103,6 +103,8 @@ img.fax {
     display: block;
     margin: 10px auto;
     text-align: left;
+    width: 80%;
+    font-size: 0.6em;
   }
   .hero p {
     width: 100%;
@@ -110,5 +112,15 @@ img.fax {
   .hero .screenshot {
     margin: 100px auto;
     display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.2em;
+  }
+
+  .github-corner {
+    display: none;
   }
 }

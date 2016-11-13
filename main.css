@@ -22,6 +22,10 @@ h1 {
   margin-bottom: 0;
 }
 
+h2 {
+  margin-bottom: -20px;
+}
+
 .hero {
   margin: 10px auto;
   text-align: left;

@@ -92,6 +92,10 @@ img.fax {
   .hero .screenshot img {
     width: 250px;
   }
+  img.fax {
+    width: 80%;
+    min-width: 320px;
+  }
 }
 
 @media(max-width:750px) {
@@ -103,7 +107,8 @@ img.fax {
   .hero p {
     width: 100%;
   }
-  .screenshot {
+  .hero .screenshot {
     margin: 100px auto;
+    display: block;
   }
 }

@@ -80,3 +80,30 @@ img.fax {
   box-shadow: 1px 1px 3px 1px rgba(0,0,0,.6);
   margin-bottom: -200px;
 }
+
+@media(max-width:1200px) {
+  .hero .text {
+    font-size: .7em;
+  }
+  .hero p {
+    width: 75%;
+    min-width: 300px;
+  }
+  .hero .screenshot img {
+    width: 250px;
+  }
+}
+
+@media(max-width:750px) {
+  .hero .text {
+    display: block;
+    margin: 10px auto;
+    text-align: left;
+  }
+  .hero p {
+    width: 100%;
+  }
+  .screenshot {
+    margin: 100px auto;
+  }
+}
